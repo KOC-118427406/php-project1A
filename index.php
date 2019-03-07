@@ -6,13 +6,35 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <title>Home Page</title>
         <meta charset="UTF-8">
-        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <?php
-          echo'Hello World';
-            echo "hello world";
-        ?>
+        
+             <style>
+body {
+  background-color: lightblue;
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+</style>
+<h1>Home Page</h1>
+<h3> <a  class= "reload btn" href="index.html" >Cirriculum Vitae</a></h3>
+<h3> <a  class= "reload btn" href= "tiltedpage_scroll_demo.html"> Interests</a></h3>
+<h3> <a  class= "reload btn" href="Research.html" >Research</a></h3>
+<h3> <a  class= "reload btn" href="Consultancy.html" >Consultancy</a></h3>
+<h3> <a  class= "reload btn" href="eBus1.php" >Online Shop</a></h3>
+
+
+
     </body>
 </html>
+
